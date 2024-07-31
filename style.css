@@ -1,0 +1,39 @@
+/* font family import form google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Azeret mono";
+}
+.nav-section-div{
+    display: flex; 
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-items: center;
+}
+.navber-name-text{
+    color:#0D1321;
+    font-family: "Azeret mono";
+    font-size: 28px;
+    font-weight: 800;
+    font-style: normal;
+}
+.navber-download-btn{
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    padding: 17px 24px;
+    border-radius: 8px;
+    border: 1px solid #0D1321 ;
+    opacity: 0.8;
+
+}
