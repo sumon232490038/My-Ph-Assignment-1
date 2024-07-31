@@ -1,39 +1,82 @@
 /* font family import form google font */
-
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
 body{
-    font-family: "Azeret mono";
+    font-family: Azeret Mono;
+    color: #0D1321;
 }
-.nav-section-div{
+/* this my navigation ber section css */
+.nav-parent-section-div{
     display: flex; 
     text-align: center;
     justify-content: space-between;
     margin-left: 150px;
     margin-right: 150px;
-    margin-top: 50px;
-    margin-bottom: 50px;
     justify-items: center;
 }
-.navber-name-text{
-    color:#0D1321;
-    font-family: "Azeret mono";
+.nav-name-text{
     font-size: 28px;
     font-weight: 800;
-    font-style: normal;
+    margin-top: 50px;
+    margin-bottom: 48px;
 }
-.navber-download-btn{
+.nav-download-btn{
     color: #0D1321;
     font-size: 20px;
     font-weight: 600;
-    font-style: normal;
     padding: 17px 24px;
     border-radius: 8px;
     border: 1px solid #0D1321 ;
     opacity: 0.8;
+    margin-top: 36px;
+    margin-bottom: 38px;
+}
+/* This is hero section css style  */
+.hero-section{
+    background-image: url(assets/Hero-bg.png);
+    background-size: cover;
+    text-align: center;
+}
+.hero-elements-parent-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-section-img{
+    margin-top: 36px;
+    margin-bottom: 32px;
+}
+.hero-section-h1{
+    margin-bottom:24px;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
 
+}
+.hero-section-h4{
+    margin-bottom: 42px;
+    font-weight: 400;
+    line-height:26px;
+    opacity: 0.7;
+    font-size: 16px;
+    line-height: 26px;
+}
+.hero-section-btn{
+    color: #FFF;
+    background-color: #0D1321;
+    margin-bottom: 45px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 24px;
+    gap: 10px;
+    border-radius: 8px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    
 }
