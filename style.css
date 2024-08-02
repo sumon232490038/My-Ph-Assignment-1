@@ -174,4 +174,40 @@ body{
     opacity: 0.7;
     text-decoration: none;
 }
+/* this is my inspiration section */
+
+.My-Inspiration-parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 151px;
+}
+
+.My-Inspiration-h1{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.My-Inspiration-h4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 80px;
+}
+
+iframe{
+    height: 550px;
+    width: 1076px;
+    border-radius: 16px;
+    border: 2px solid rgba(13, 19, 33, 0.20);
+}
+.iframe-parent{
+    border-radius: 16px;
+    border: 2px solid rgba(13, 19, 33, 0.20);
+    padding: 30px;
+
+
+}
 
