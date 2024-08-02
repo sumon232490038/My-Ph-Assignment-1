@@ -14,9 +14,9 @@ body{
     display: flex; 
     text-align: center;
     justify-content: space-between;
-    margin-left: 150px;
-    margin-right: 150px;
     justify-items: center;
+    margin-left: 150px; 
+    margin-right: 150px;
 }
 .nav-name-text{
     font-size: 28px;
@@ -36,10 +36,13 @@ body{
     margin-bottom: 38px;
 }
 /* This is hero section css style  */
+
+
 .hero-section{
     background-image: url(assets/Hero-bg.png);
     background-size: cover;
-    text-align: center;
+    padding-top: 26px;
+    margin-bottom: 154px;
 }
 .hero-elements-parent-div{
     display: flex;
@@ -48,12 +51,7 @@ body{
     align-items: center;
     text-align: center;
 }
-.hero-section-img{
-    margin-top: 36px;
-    margin-bottom: 32px;
-}
 .hero-section-h1{
-    margin-bottom:24px;
     font-size: 48px;
     font-weight: 800;
     line-height: 68px;
@@ -75,8 +73,105 @@ body{
     font-weight: 600;
     padding: 21px 24px;
     gap: 10px;
-    border-radius: 8px;
-    word-spacing: 4px;
-    letter-spacing: 2px;
-    
+    border-radius: 8px; 
 }
+/* this is why web development section */
+
+.main-section-2{
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
+.why-web-development-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.why-web-development-h1{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.why-web-development-h4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+.i-do-coding-parent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 96px;
+    margin-bottom: 128px;
+}
+.i-do-coding-child-1{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.i-do-coding-child-h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    opacity: 0.7;
+
+}
+.i-do-coding-child-h4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-top: 26px;
+    margin-bottom: 42px;
+}
+.i-do-coding-child-btn{
+    font-size: 20px;
+    color: #0D1321 ;
+    font-weight: 600;
+    padding: 12px 20px;
+    border: 1px solid #0D1321;
+    opacity: 0.7;
+    text-decoration: none;
+}
+.i-help-modern-system-parent{
+    display: flex;
+    margin-top: 96px;
+    margin-bottom: 128px;
+}
+.i-help-modern-system-child-1{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.i-help-modern-system-child-h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    opacity: 0.7;
+
+}
+.i-help-modern-system-child-h4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-top: 26px;
+    margin-bottom: 42px;
+}
+.i-help-modern-system-child-btn{
+    font-size: 20px;
+    color: #0D1321 ;
+    font-weight: 600;
+    padding: 12px 20px;
+    border: 1px solid #0D1321;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
