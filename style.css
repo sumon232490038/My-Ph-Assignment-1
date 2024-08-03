@@ -43,6 +43,7 @@ body{
     background-size: cover;
     padding-top: 26px;
     margin-bottom: 154px;
+    height: 600px;
 }
 .hero-elements-parent-div{
     display: flex;
@@ -69,6 +70,7 @@ body{
     color: #FFF;
     background-color: #0D1321;
     margin-bottom: 45px;
+    text-decoration: none;
     font-size: 20px;
     font-weight: 600;
     padding: 21px 24px;
@@ -235,6 +237,7 @@ iframe{
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 24px;
+    border-radius: 16px;
 }
 .my-current-target-child-h4{
     font-size: 16px;
@@ -257,22 +260,28 @@ iframe{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 10px 0px 10px 10px;
     row-gap: 25px;
-
+    border-radius: 16px;
+    background-color: rgba(150, 32, 3, 0.26);
 }
 .html-css-js-child-parent-div-2{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 10px 0px 10px 10px;
     row-gap: 25px;
-
+    border-radius: 16px;
+    background-color: rgba(0, 77, 232, 0.205);
 }
 .html-css-js-child-parent-div-3{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 10px 0px 10px 10px;
     row-gap: 25px;
-
+    border-radius: 16px;
+    background-color: rgba(255, 221, 0, 0.329);
 }
 
 .html-css-js-child-div-h1{
@@ -295,19 +304,43 @@ iframe{
 
 }
 
-/* <!-- this is My Current Target section --> */
+/* <!-- this is My Next Target section --> */
 
 .react-js-parent-container-1{
     display: flex; 
     justify-content: center;
     border: 1px solid rgba(13, 19, 33, 0.15);
-   
     border-radius: 16px;
     margin-left: 75px;
     margin-right: 50px;
     margin-bottom: 24px;
     padding-top: 40px;
     padding-bottom: 40px;
+    background-color: rgba(9, 145, 150, 0.281);
+}
+.react-js-parent-container-2{
+    display: flex; 
+    justify-content: center;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    margin-left: 75px;
+    margin-right: 50px;
+    margin-bottom: 24px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(7, 153, 14, 0.301);
+}
+.react-js-parent-container-3{
+    display: flex; 
+    justify-content: center;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    margin-left: 75px;
+    margin-right: 50px;
+    margin-bottom: 24px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(3, 36, 80, 0.247);
 }
 .react-nodejs-mongodb-child-container{
     display: flex;
@@ -409,4 +442,24 @@ iframe{
     color: #0D1321;
     border: 1px solid rgba(13, 19, 33, 0.15)
     
+}
+/* <!-- this is footer section --> */
+
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 73px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+.footer-text{
+   font-size: 20px; 
+   font-weight: 600;
+
+}
+.social-contracts-links{
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
 }
