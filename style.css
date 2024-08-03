@@ -249,7 +249,7 @@ iframe{
     column-gap: 110px;
     align-items: center;
     margin-top: 40px;
-
+    margin-bottom: 111px;
 }
 
 
@@ -265,7 +265,6 @@ iframe{
     flex-direction: column;
     justify-content: center;
     row-gap: 25px;
-    /* padding-left: 50px; */
 
 }
 .html-css-js-child-parent-div-3{
@@ -273,17 +272,8 @@ iframe{
     flex-direction: column;
     justify-content: center;
     row-gap: 25px;
-    /* padding-left: 50px; */
 
 }
-
-
-
-
-
-
-
-
 
 .html-css-js-child-div-h1{
     font-size: 24px;
@@ -298,6 +288,54 @@ iframe{
 
 }
 .Learn-More-All-btn{
+    text-decoration: underline;
+    color:#0D1321;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+/* <!-- this is My Current Target section --> */
+
+.react-js-parent-container-1{
+    display: flex; 
+    justify-content: center;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+   
+    border-radius: 16px;
+    margin-left: 75px;
+    margin-right: 50px;
+    margin-bottom: 24px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.react-nodejs-mongodb-child-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 15px; 
+}
+
+.react-node-mongo-img{
+    margin-top: 25px;
+    margin-right: 20px;
+
+}
+.react-nodejs--mongodb-child-container-h1{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+
+}
+.react-nodejs--mongodb-child-container-h4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+
+}
+.react-nodejs--mongodb-child-container-btn{
+
     text-decoration: underline;
     color:#0D1321;
     font-size: 16px;
